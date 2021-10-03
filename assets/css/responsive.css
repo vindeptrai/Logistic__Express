@@ -292,4 +292,8 @@
     .footer-slogan__heading {
         font-size: 33px;
     }
+
+    .menu-subnav__link {
+        font-size: 11px;
+    }
 }
