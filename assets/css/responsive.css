@@ -1,0 +1,291 @@
+/* PC */
+@media (min-width: 1024px) {
+    .header__navbar-menu-open-close {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .grid {
+        max-width: 950px;
+    }
+}
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .grid {
+        max-width: 720px;
+    }
+
+    .grid__column-full {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    
+    .grid__column-half {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .grid__column-33 {
+        width: 33.3333%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+
+    .mt-20 {
+        margin-top: 20px;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+
+    .header {
+        height: 71px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .header__infor-wrap {
+        display: none;
+    }
+
+    .header-navbar__list {
+        display: none;
+    }
+
+    .header-navbar {
+        height: 73px;
+    }
+
+    .background {
+        height: 500px;
+    }
+
+    .caption__heading {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .btn-normal {
+        padding: 13px 24px;
+    }
+
+    .category-shipping__card {
+        padding: 50px 18px;
+    }
+
+    .category-company__img-wrap {
+        padding-left: 0;
+    }
+
+    .radio {
+        display: inline-block;
+    }
+
+    .radio__option {
+        padding: 20px 20px 20px 0;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 740px) {
+    .grid {
+        max-width: 365px;
+    }
+
+    .grid__column-full {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+
+    .grid__column-33 {
+        width: 33.3333%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .grid__column-s-2 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+
+    .mt-20 {
+        margin-top: 20px;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .header {
+        height: 71px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .header__infor-wrap {
+        display: none;
+    }
+
+    .header-navbar__list {
+        display: none;
+    }
+
+    .header-navbar {
+        height: 73px;
+    }
+
+    .menu-navbar {
+        width: 100vh;
+        margin-left: -28px;
+    }
+
+    .background {
+        height: 500px;
+    }
+
+    .caption__heading {
+        font-size: 39px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    .caption__form {
+        display: block;
+    }
+
+    .caption__form-input {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .caption__form-search {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .btn-normal {
+        padding: 13px 24px;
+    }
+
+    .section-caption__heading {
+        font-size: 35px;
+    }
+
+    .category-shipping__card {
+        padding: 50px 18px;
+    }
+
+    .category-company__heading {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .category-company__about {
+        padding-right: 0;
+    }
+
+    .category-company__img-wrap {
+        padding-left: 0;
+    }
+
+    .form-request {
+        padding: 20px;
+    }
+
+    .form-request__heading {
+        font-size: 37px;
+    }
+
+    
+
+    .radio__option {
+        padding: 20px 20px 20px 0;
+    }
+
+    .radio__select-wrap {
+        display: inline-block;
+        margin-left: 55px;
+    }
+
+    .radio__select  {
+        padding: 8px 0;
+    }
+
+    .feedback-section__heading {
+        font-size: 36px;
+    }
+
+    .feedback-slider__btn {
+        right: -7px;
+    }
+}
+
+/* iphone 6 */
+@media (max-width: 400px) {
+    .grid {
+        max-width: 320px;
+    }
+
+    .category-shipping__transport {
+        font-size: 28px;
+    }
+
+    .category-company__heading {
+        font-size: 28px;
+    }
+
+    .category-company__about {
+        padding-right: 0;
+    }
+
+    .form-request__heading {
+        font-size: 33px;
+    }
+
+    .radio__select-wrap {
+        margin-left: 22px;
+    }
+
+    .section-caption__heading {
+        font-size: 31px;
+    }
+
+    .feedback-slider__btn {
+        right: -18px;
+    }
+
+    .feedback-slider__icon {
+        padding: 11px;
+    }
+
+    .footer-slogan__heading {
+        font-size: 33px;
+    }
+}
