@@ -166,7 +166,7 @@
     }
 
     .menu-subnav__link {
-        font-size: 13px;
+        -webkit-text-size-adjust: 100%;
     }
 
     .background {
@@ -294,6 +294,6 @@
     }
 
     .menu-subnav__link {
-        font-size: 11px;
+        -webkit-text-size-adjust: 100%;
     }
 }
